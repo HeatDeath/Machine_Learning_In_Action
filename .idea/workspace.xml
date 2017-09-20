@@ -115,39 +115,11 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
+              <option name="myItemId" value="Machine_Learning_In_Action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearingInAction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter-1" />
+              <option name="myItemId" value="Machine_Learning_In_Action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArticleSpider" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Python&#9;ACTION&#9;ActivatePythonConsoleToolWindow" />
@@ -478,9 +450,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14324035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -546,10 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,10 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,10 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,10 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,10 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,10 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,10 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,57 +590,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/random/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3130">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/random/__init__.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1396305039/numpy/random/mtrand.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/matrixlib/defmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/matrixlib/defmatrix.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1396305039/numpy/core/multiarray.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1776">
-          <caret line="792" column="4" lean-forward="false" selection-start-line="792" selection-start-column="4" selection-end-line="792" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createFirstPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/numpy/lib/shape_base.py" />
+    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/README.txt" />
+    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createFirstPlot.py" />
     <entry file="file://$PROJECT_DIR$/Chapter-1/numpy_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="961">
@@ -709,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="784" column="4" lean-forward="false" selection-start-line="784" selection-start-column="4" selection-end-line="784" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,18 +623,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter-2/kkk_hellot.py" />
-    <entry file="file://$PROJECT_DIR$/Ch02/datingTestSet2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02/datingTestSet2.txt" />
     <entry file="file://$PROJECT_DIR$/Chapter-2/datingTestSet.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,42 +635,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27492">
           <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createDist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1028">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createDist2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1356">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/datingTestSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/testSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createDist.py" />
+    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/createDist2.py" />
+    <entry file="file://$PROJECT_DIR$/Ch02/datingTestSet.txt" />
+    <entry file="file://$PROJECT_DIR$/Ch02/EXTRAS/testSet.txt" />
     <entry file="file://$PROJECT_DIR$/Chapter-2/my_test_data/6_01.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -785,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,23 +658,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter-2/test_data/6_01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter-2/test_data/6_01.txt" />
     <entry file="file://$PROJECT_DIR$/Chapter-2/my_test_data/6_01.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,34 +697,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch02/testSet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch02/README.txt" />
+    <entry file="file://$PROJECT_DIR$/Ch02/testSet.txt" />
     <entry file="file://$PROJECT_DIR$/Chapter-2/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#488#1" expanded="false" />
-            <element signature="e#489#508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="842">
           <caret line="191" column="16" lean-forward="true" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#234#1" expanded="false" />
-            <element signature="e#363#1171#0" expanded="false" />
-            <element signature="e#1288#1813#0" expanded="false" />
-            <element signature="e#1886#2469#0" expanded="false" />
-            <element signature="e#2557#4311#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
