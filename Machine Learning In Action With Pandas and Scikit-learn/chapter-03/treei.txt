@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="feature_4_reduced <= 0.5\nentropy = 0.8265\nsamples = 21\nvalue = [[17, 4]\n[9, 12]\n[16, 5]]"] ;
+1 [label="feature_3_no <= 0.5\nentropy = 0.9031\nsamples = 12\nvalue = [[8, 4]\n[9, 3]\n[7, 5]]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="feature_2_hyper <= 0.5\nentropy = 0.6122\nsamples = 6\nvalue = [[2, 4]\n[4, 2]\n[6, 0]]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 3\nvalue = [[0, 3]\n[3, 0]\n[3, 0]]"] ;
+2 -> 3 ;
+4 [label="feature_1_young <= 0.5\nentropy = 0.6122\nsamples = 3\nvalue = [[2, 1]\n[1, 2]\n[3, 0]]"] ;
+2 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 2\nvalue = [[2, 0]\n[0, 2]\n[2, 0]]"] ;
+4 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 1\nvalue = [[0, 1]\n[1, 0]\n[1, 0]]"] ;
+4 -> 6 ;
+7 [label="feature_1_presbyopic <= 0.5\nentropy = 0.4333\nsamples = 6\nvalue = [[6, 0]\n[5, 1]\n[1, 5]]"] ;
+1 -> 7 ;
+8 [label="entropy = 0.0\nsamples = 4\nvalue = [[4, 0]\n[4, 0]\n[0, 4]]"] ;
+7 -> 8 ;
+9 [label="feature_2_hyper <= 0.5\nentropy = 0.6667\nsamples = 2\nvalue = [[2, 0]\n[1, 1]\n[1, 1]]"] ;
+7 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 1\nvalue = [[1, 0]\n[0, 1]\n[1, 0]]"] ;
+9 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 1\nvalue = [[1, 0]\n[1, 0]\n[0, 1]]"] ;
+9 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 9\nvalue = [[9, 0]\n[0, 9]\n[9, 0]]"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
