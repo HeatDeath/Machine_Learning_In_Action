@@ -2,7 +2,7 @@
 决策树，可以使用不熟悉的数据集合，并从中提取出一系列规则，在这些机器根据数据集创建规则时，就是是机器学习的过程
 
 优点：
-    计算复杂度不高，输出易于理解的结果，对于中间值的缺失不敏感，可以处理不先关特征数据
+    计算复杂度不高，输出易于理解的结果，对于中间值的缺失不敏感，可以处理不相关特征数据
 缺点：
     可能会产生过度匹配问题
 适用的数据类型：
@@ -182,14 +182,14 @@ def chooseBestFeatureToSplit(dataSet):
 
 递归结束的条件：
     程序遍历完所有划分数据集的属性，或者每个分支下的所有实例都具有相同的分类。如果所有实例具有相同的分类，
-则得到一个叶子节点或终止块。任何到达叶子结点的数据必然属于叶子节点的分类。
-
-    如果数据集已经处理了所有属性，但是类标签依然不是唯一的，此时我们需要决定如何定义该叶子节点，在这种情况下，
-我们通常会采用多数表决的方式。
+则得到一个叶子节点或终止块。任何到达叶子结点的数据必然属于叶子节点的分类。    
 """
 
 def majorityCnt(classList):
     """
+        如果数据集已经处理了所有属性，但是类标签依然不是唯一的，此时我们需要决定如何定义该叶子节点，在这种情况下，
+    我们通常会采用多数表决的方式。
+
     返回出现次数最多的分类名称
     :param classList: 类标签 list
     :return: 出现次数最多的 类标签
@@ -256,16 +256,19 @@ def createTree(dataSet, labels):
 # print(myTree)
 
 def classify(inputTree, featureLabels, testVec):
+    # 根节点
     firstStr = list(inputTree.keys())[0]
+    # 子节点
     secondDict = inputTree[firstStr]
     featureIndex = featureLabels.index(firstStr)
     for key in secondDict.keys():
         if testVec[featureIndex] == key:
+            # 如果当前节点为 根节点
             if type(secondDict[key]).__name__ == 'dict':
                 classLabel = classify(secondDict[key], featureLabels, testVec)
+            # 如果当前节点为 叶子节点
             else:
                 classLabel = secondDict[key]
-
     return classLabel
 
 myTree = retrieveTree(0)

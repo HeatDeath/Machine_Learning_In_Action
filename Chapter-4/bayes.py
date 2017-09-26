@@ -120,14 +120,14 @@ def setOfWord2Vec(vocabList, inputSet):
 def trainNB0(trainMatrix, trainCatagory):
     """
 
-    :param trainMatrix:
-    :param trainCatagory:
+    :param trainMatrix: 训练文档矩阵
+    :param trainCatagory: 训练文档对应的标签
     :return:
     """
     # 训练文档的总数
     numTrainDocs = len(trainMatrix)
 
-    # 词汇表的长度
+    # 词汇表的长度（列数）
     numWords = len(trainMatrix[0])
 
     # 任意文档 属于 侮辱性 文档 的概率
@@ -152,9 +152,9 @@ def trainNB0(trainMatrix, trainCatagory):
     for i in range(numTrainDocs):
         # 如果该文档的分类为 侮辱性 文档
         if trainCatagory[i] == 1:
-            # 文档矩阵相加，最后获得的 p1Num 矩阵的每个元素为该词汇在所有文档中出现的总次数
+            # 文档矩阵相加，最后获得的 p1Num 矩阵的每个元素为该词汇在所有文档中出现的总次数（一个行向量）
             p1Num += trainMatrix[i]
-            # 矩阵单行元素相加，最后获得的 p1Denom 为整个文档集中所有词汇出现的总次数
+            # 矩阵单行元素相加，最后获得的 p1Denom 为整个文档集中所有词汇出现的总次数（一个常数）
             p1Denom += sum(trainMatrix[i])
         else:
             p0Num += trainMatrix[i]
@@ -170,6 +170,11 @@ def trainNB0(trainMatrix, trainCatagory):
     p1Vect = np.log(p1Num/p1Denom)
     p0Vect = np.log(p0Num/p0Denom)
 
+    '''
+    p0Vect: 非侮辱性文档中，每个词出现的概率
+    p1Vect: 侮辱性文档中，每个词出现的概率
+    pAbusive: 任意一篇文档，是侮辱性文档的概率
+    '''
     return p0Vect, p1Vect, pAbusive
 
 # trainMat = []
